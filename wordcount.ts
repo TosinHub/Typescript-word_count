@@ -3,7 +3,7 @@ import * as path from 'path';
 
 function getWordCount(file_path: string): Map<string, number> {
     try {
-        const content = fs.readFileSync(file_path, 'utf-8').toLowerCase();
+        const content = fs.readFileSync(file_path, 'utf-8');
         const words = content.replace(/[^\w\s]/g, '').split(/\s+/);
         const wordCount = new Map<string, number>();
 
