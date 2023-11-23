@@ -44,7 +44,7 @@ This script analyzes a text file and prints the word count for each word, sorted
     ts-node wordCount.ts path/to/your/file.txt
     ```
 
-   Replace `path/to/your/file.txt` with the actual path to the text file you want to analyze. I have a file example.txt you can use
+   Replace `path/to/your/file.txt` with the actual path to the text file you want to analyze if the file is not within the same directory of the script. I have a file example.txt you can use
 
      ```bash
     ts-node wordCount.ts example.txt
