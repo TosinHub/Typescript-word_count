@@ -20,7 +20,7 @@ function getWordCount(file_path: string): Map<string, number> {
 
 function main() {
     if (process.argv.length !== 3) {
-        console.error('Usage: ts-node wordCount.ts <file_path>');
+        console.error('Usage: ts-node wordcount.ts <file_path>');
         process.exit(1);
     }
 
